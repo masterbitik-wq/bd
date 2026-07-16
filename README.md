@@ -35,9 +35,9 @@ INSERT INTO test VALUES (10), (20), (30), (40), (50);
 
 ## Вывод:
 text
-Statistics for column 'value' in table 'test':
-  Count (numeric): 5
-  Sum: 150.000000
+Statistics for column 'value' in table 'test':  
+  Count (numeric): 5 \
+  Sum: 150.000000 __
   Mean: 30.000000
   Min: 10.000000
   Max: 50.000000
