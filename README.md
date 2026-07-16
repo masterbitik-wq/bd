@@ -8,14 +8,17 @@
 
 ```bash
 pacman -S mingw-w64-ucrt-x86_64-sqlite3
+```
 Сборка:
 
-bash
+```bash
 make
-Использование
-bash
+```
+Использование:
+```bash
 ./stats <database> <table> <column>
-Пример
+```
+## Пример
 Создание тестовой БД:
 
 bash
