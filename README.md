@@ -3,7 +3,7 @@
 
 ## Сборка в MSYS2
 Установите SQLite3:
-pacman -S mingw-w64-ucrt-x86_64-sqlite3
+pacman -S mingw-w64-ucrt-x86_64-sqlite3 /r
 make
 
 ## Использование
@@ -11,7 +11,7 @@ make
 
 ## Пример
 Создание тестовой БД:
-sqlite3 test.db
+sqlite3 test.db /r /n
 CREATE TABLE test (value INTEGER);
 INSERT INTO test VALUES (10), (20), (30), (40), (50);
 
