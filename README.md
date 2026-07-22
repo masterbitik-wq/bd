@@ -16,7 +16,7 @@ make
 ```
 Использование:
 ```bash
-./stats <database> <table> <column>
+./stats -d <database> -t <table> -c <column>
 ```
 ## Пример
 Создание тестовой БД:
@@ -30,7 +30,7 @@ INSERT INTO test VALUES (10), (20), (30), (40), (50);
 
 ## Запуск:
 ```bash
-./stats test.db test value
+./stats -d test.db -t test -c value
 ```
 
 ## Вывод:
